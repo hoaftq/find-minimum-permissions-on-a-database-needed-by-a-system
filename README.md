@@ -88,8 +88,8 @@ GRANT CREATE SESSION, CREATE TABLE, CREATE PROCEDURE, CREATE SEQUENCE TO test1;
 Test the system to make sure it is working properly
 
 ### References
-https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver15
-https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver15
-https://docs.oracle.com/cd/B19306_01/network.102/b14266/admusers.htm#DBSEG10000
-https://docs.oracle.com/database/121/TTSQL/privileges.htm#TTSQL338
+- https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver15
+- https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver15
+- https://docs.oracle.com/cd/B19306_01/network.102/b14266/admusers.htm#DBSEG10000
+- https://docs.oracle.com/database/121/TTSQL/privileges.htm#TTSQL338
 
