@@ -10,6 +10,7 @@ The user is first given the highest perminission. The permissions might be speci
 Install the program with that permissions and then reduce user permissions to the one we determined already. We then verify that the system is working properly. If it is not, we might need to give the user more permission.
 
 Below are scripts that can be used to perform this method
+
 **SQL Server**
   1. Creates a login named test1 (if it does not exsit)
   2. Creates our test database
@@ -55,7 +56,11 @@ GO
 Finally tests the system to make sure that it still works with new permissions
 
 **Oracle**
+
+Connect to database with sysdba
+```
 connect / as sysdba
+```
 
 Create the database and a user with all privilages
 ```sql
