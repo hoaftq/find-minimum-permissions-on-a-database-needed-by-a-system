@@ -11,7 +11,7 @@ Install the program with that permissions and then reduce user permissions to th
 
 Below are scripts that can be used to perform this method
 
-**SQL Server**
+***SQL Server***
   1. Creates a login named test1 (if it does not exsit)
   2. Creates our test database
   3. Create a user named user1 which has a permission of db_owner and associates with login test1
@@ -55,7 +55,7 @@ GO
 
 Finally tests the system to make sure that it still works with new permissions
 
-**Oracle**
+***Oracle***
 
 Connect to database with sysdba
 ```
@@ -86,4 +86,10 @@ GRANT CREATE SESSION, CREATE TABLE, CREATE PROCEDURE, CREATE SEQUENCE TO test1;
 ```
 
 Test the system to make sure it is working properly
+
+### References
+https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-ver15
+https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver15
+https://docs.oracle.com/cd/B19306_01/network.102/b14266/admusers.htm#DBSEG10000
+https://docs.oracle.com/database/121/TTSQL/privileges.htm#TTSQL338
 
